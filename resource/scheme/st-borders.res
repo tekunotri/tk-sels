@@ -507,10 +507,10 @@ TFFatLineBorderClearBG
 
 		"LoadoutItemMouseOverBorder"
 		{
-			"Left"		{ "1" { "color" "TransparentBlack" } "2" { "color" "TransparentBlack" } }
-			"Right"		{ "1" { "color" "TransparentBlack" } "2" { "color" "TransparentBlack" } }
-			"Top"		{ "1" { "color" "TransparentBlack" } "2" { "color" "TransparentBlack" } }
-			"Bottom"	{ "1" { "color" "TransparentBlack" } "2" { "color" "TransparentBlack" } }
+			"Left"		{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
+			"Right"		{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
+			"Top"		{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
+			"Bottom"	{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
 		}
 		LoadoutItemPopupBorder
 		{

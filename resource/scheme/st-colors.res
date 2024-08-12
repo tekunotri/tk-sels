@@ -36,6 +36,7 @@ Scheme
 		"Black"				"46 43 42 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
+		"GrayBorder"		"25 25 25 255"
 		"FooterBGBlack"		"52 48 55 255"
 		
 		"HUDBlueTeam"		"104 124 155 127"

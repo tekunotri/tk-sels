@@ -2511,7 +2511,7 @@ Scheme
 		{
 		"1"
 			{
-			"name" "Typoster"
+			"name" "Typoster Outline"
 			"tall" "18"
 			"antialias" "1"
 			"outline" "1"

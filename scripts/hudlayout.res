@@ -265,7 +265,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"255"
 		"wide"	 	"252"
 		"tall"	 	"55"
 		"tall_minmode"	 	"28"
@@ -285,7 +285,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"235"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -511,7 +511,7 @@
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
-		"LocalPlayerColor"	"HUDBlack"
+		"LocalPlayerColor"	"HudWhite"
 
 		"BaseBackgroundColor"	"46 43 42 0"		[$WIN32]
 		"LocalBackgroundColor"	"245 229 196 0"	[$WIN32]

@@ -2849,11 +2849,8 @@
 	}
 	"SelsHUD"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SelsHUD"
-		"font"		"typosterreg18"
-		"labelText"		"selchno"
-		"textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"40"
 		"zpos"		"-2"
@@ -2863,5 +2860,29 @@
 		"enabled"		"1"
 		"fgcolor" "15 15 15 255"
 		"bgcolor_override" "255 255 255 220"
+		"SubButton"
+		{
+			"ControlName"						"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"enabled"								"1"
+			"proportionaltoparent"					"1"
+			"font"									"typosterreg18"
+			"AllCaps"								"0"
+			"textAlignment"							"center"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"paintborder"							"0"
+
+			"defaultFgColor_override"				"15 15 15 255"
+			"armedFgColor_override"					"15 15 15 220"
+			"depressedFgColor_override"				"15 15 15 220"
+		}
 	}
 }
