@@ -250,9 +250,9 @@
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"TyposterReg12"
+				"1"		"TyposterReg12"
+				"2"		"TyposterReg12"
 			}
 		}
 
@@ -281,9 +281,9 @@
 
 			"fonts"
 			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"0"		"TyposterReg12"
+				"1"		"TyposterReg12"
+				"2"		"TyposterReg12"
 			}
 
 			"colors"

@@ -18,7 +18,7 @@
 		"bgcolor_override"				"46 43 42 0"
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
-		
+
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
@@ -26,11 +26,11 @@
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
-		
+
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -44,7 +44,7 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -54,26 +54,33 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-	}				
-	
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_brown"
+		"teambg_1"		"../hud/color_panel_brown"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+
+		"src_corner_height"		"40"	// pixels inside the image
+		"src_corner_width"		"40"
+		"draw_corner_width"		"0"		// screen size of the corners ( and sides ), proportional
+		"draw_corner_height"	"0"
+	}
+
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -81,37 +88,37 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"20"
 		"transition_time" "0"
-		
+		"yoffset"	"14"
+
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
+			"ypos"			"34"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}				
-		
+			"fillcolor"		"TanDark"
+		}
+
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"typosterReg24"
+			"font"				"HudFontMediumSmallBold"
 			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
+			"unselectedcolor"	"130 120 104 255"
 			"defaultBgColor_override"	"46 43 42 255"
 			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"activeborder_override"	"tabsactive"
+			"normalborder_override" "tabsnormal"
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -122,37 +129,24 @@
 		"wide"			"100"
 		"tall"			"25"
 		"autoResize"	"0"
-		"pinCorner"		"0"
+		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"back"
-		"font"			"typosterReg24"
+		"labelText"		"#TF_BackCarat"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"back"
-		"fgcolor_override" "255 255 255 255"
+		"sound_armed"		"ui/item_info_mouseover.wav"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
+		"armedFgColor_override"		"HudWhite"
 	}
-	"back"
-    {
-        "ControlName"   "CExButton"
-        "fieldName"     "back"
-        "xpos"      "9999"
-        "ypos"      "9999"
-        "zpos"      "1"
-        "wide"      "0"
-        "tall"      "0"
-        "visible"       "1"
-        "enabled"       "1"
-        "labelText"     "&q"
-        "textAlignment" "center"
-        "Command"       "back"
-    }
-	
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
@@ -164,5 +158,65 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
+	}
+
+	//== custom =================================
+
+	"MenuBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuBG"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"image"			"../vgui/replay/thumbnails/menu/items"
+		"scaleImage"	"1"
+	}
+	"ShaderBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShaderBG"
+		"zpos"			"-1"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"fillcolor"		"TransparentBlack"
+	}
+	"HotkeyE"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HotkeyE"
+		"xpos"			"r0"
+		"visible"		"1"
+		"labelText"		"&E"
+		"command"		"close"
+	}
+	"HotkeyM"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HotkeyM"
+		"xpos"			"r0"
+		"visible"		"1"
+		"labelText"		"&M"
+		"command"		"close"
+	}
+	"HotkeyN"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HotkeyN"
+		"xpos"			"r0"
+		"visible"		"1"
+		"labelText"		"&N"
+		"command"		"close"
+	}
+	"HotkeyQ"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HotkeyQ"
+		"xpos"			"r0"
+		"visible"		"1"
+		"labelText"		"&Q"
+		"command"		"back"
 	}
 }
