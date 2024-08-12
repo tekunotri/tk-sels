@@ -498,14 +498,14 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
+		"MaxDeathNotices" "6"
+		"IconScale"	  "1"
 		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
+		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Typosterreg12"
+		"TextFont"		"TyposterReg10"
 		
 
 		"TeamBlue"		"HUDBlueTeamSolid"
@@ -513,8 +513,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 0"		[$WIN32]
+		"LocalBackgroundColor"	"245 229 196 0"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}

@@ -2526,6 +2526,33 @@ Scheme
 			"antialias" "1"
 			}
 		}
+		typosterReg10
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "10"
+			"antialias" "1"
+			}
+		}
+		typosterReg8
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "8"
+			"antialias" "1"
+			}
+		}
+		typosterReg6
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "6"
+			"antialias" "1"
+			}
+		}
 		menufont
 		{
 		"1"
