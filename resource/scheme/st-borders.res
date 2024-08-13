@@ -1,4 +1,5 @@
-	Scheme {
+	Scheme 
+	{
 
     Borders
 	{
@@ -507,23 +508,19 @@ TFFatLineBorderClearBG
 
 		"LoadoutItemMouseOverBorder"
 		{
-			"Left"		{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
-			"Right"		{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
-			"Top"		{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
-			"Bottom"	{ "1" { "color" "GrayBorder" } "2" { "color" "GrayBorder" } }
-		}
-		LoadoutItemPopupBorder
-		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_holder_central"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"image"					"loadout_rect_mouseover"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
-		
+		LoadoutItemPopupBorder
+		{
+			"image" "White" "color" "20 20 20 255" "bordertype" "scalable_image"
+		}
 		BackpackItemGrayedOut
 		{
 			"bordertype"			"scalable_image"

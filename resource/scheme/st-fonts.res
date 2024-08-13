@@ -2517,6 +2517,24 @@ Scheme
 			"outline" "1"
 			}
 		}
+		typosterReg16
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "16"
+			"antialias" "1"
+			}
+		}
+		typosterReg14
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "14"
+			"antialias" "1"
+			}
+		}
 		typosterReg12
 		{
 		"1"

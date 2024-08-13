@@ -35,7 +35,7 @@
 		"ypos"			"7"
 		"zpos"			"-2"
 		"wide"			"500"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -144,13 +144,10 @@
 		"font_minmode"	"DefaultVerySmall"
 		"xpos"			"8"
 		"xpos_minmode"	"30"
-		"ypos"			"26"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"ypos"			"16"	
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"15"
+		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -197,22 +194,34 @@
 		"scaleImage"	"1"
 	}
 	
+	"KillStreakAnchor"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"KillStreakAnchor"
+		"xpos"										"85"
+		"ypos"										"20"
+		"wide"										"8"
+		"tall"										"8"
+		"visible"									"1"
+		"enabled"									"1"
+	}
 	"KillStreakIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
-		"xpos_minmode"	"30"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
-		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_streak"
-		"scaleImage"	"1"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"KillStreakIcon"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"12"
+		"wide"										"11"
+		"tall"										"11"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"logos/killstreaks/streak_white"
+		"scaleImage"								"1"
+
+		"pin_to_sibling" 							"KillStreakAnchor"
 	}
+
 	
 	"MoveableSubPanel"
 	{
