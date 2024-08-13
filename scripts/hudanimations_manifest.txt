@@ -2,5 +2,6 @@
 {
 	"file"	"scripts/hudanimations.txt"
 	"file"	"scripts/hudanimations_sel.txt"
+	"file"	"scripts/scope.txt"
 	"file"	"scripts/hudanimations_tf.txt"
 }
