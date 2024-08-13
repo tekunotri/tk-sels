@@ -212,10 +212,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"HudFontSmall"
-		"font_lodef"	"HudFontSmall"
+		"font"			"TyposterReg6"
 	}	
 	"SetupBG"
 	{
@@ -227,8 +224,8 @@
 		"ypos_hidef"	"-100"	//off-screen
 		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
