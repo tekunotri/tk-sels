@@ -98,8 +98,8 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"typosterReg18"
 		"fgcolor"		"Black"
-		"xpos"			"11"
-		"ypos"			"11"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"4"
 		"wide"			"40"
 		"tall"			"48"
@@ -107,6 +107,7 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoInReserve"
 	}									
 	"AmmoNoClip"
 	{
@@ -115,7 +116,7 @@
 		"font"			"typosterReg32"
 		"fgcolor"		"White"
 		"xpos"			"-30"
-		"ypos"			"-6"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"84"
 		"tall"			"64"
@@ -131,8 +132,8 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"typosterReg32"
 		"fgcolor"		"Black"
-		"xpos"			"-29"
-		"ypos"			"-5"		
+		"xpos"			"-1"
+		"ypos"			"-1'"		
 		"zpos"			"5"
 		"wide"			"84"
 		"tall"			"64"
@@ -140,6 +141,6 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
-		
+		"pin_to_sibling"	"AmmoNoClip"
 	}									
 }

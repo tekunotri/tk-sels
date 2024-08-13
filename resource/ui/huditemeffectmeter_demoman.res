@@ -43,7 +43,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"m0refont24"
+		"font"										"typosterReg24"
 		"fgcolor"									"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -60,7 +60,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"%progresscount%"
 		"textAlignment"								"center"
-		"font"										"m0refont24"
+		"font"										"typosterReg24"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"ItemEffectMeterCount"
