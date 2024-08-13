@@ -285,7 +285,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"235"
+		"ypos"		"225"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -500,7 +500,7 @@
 
 		"MaxDeathNotices" "6"
 		"IconScale"	  "1"
-		"LineHeight"	  "16"
+		"LineHeight"	  "12"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
@@ -514,7 +514,7 @@
 		"LocalPlayerColor"	"HudWhite"
 
 		"BaseBackgroundColor"	"46 43 42 0"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 0"	[$WIN32]
+		"LocalBackgroundColor"	"255 255 255 50"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
