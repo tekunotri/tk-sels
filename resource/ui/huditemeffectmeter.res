@@ -56,7 +56,7 @@
 		"proportionaltoparent"						"1"
 		"image" 									"replay/thumbnails/mod"
 		"scaleImage" 								"1"
-		"drawcolor" 								"200 200 200 255"
+		"drawcolor" 								"135 184 225 255"
 	}
 
 

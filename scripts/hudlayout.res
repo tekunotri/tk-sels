@@ -506,14 +506,14 @@
 		"TextFont"		"TyposterReg10"
 		
 
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"White" // HUDBlueTeamSolid
+		"TeamRed"		"White" // HUDRedTeamSolid
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HudWhite"
 
 		"BaseBackgroundColor"	"46 43 42 0"		
 		"LocalBackgroundColor"	"255 255 255 50"	
-		}
+	}
 
 	HudVehicle
 	{
