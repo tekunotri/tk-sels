@@ -2498,6 +2498,34 @@ Scheme
 			"antialias" "1"
 			}
 		}
+		typosterReg22
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "22"
+			"antialias" "1"
+			}
+		}
+		typosterReg20
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "20"
+			"antialias" "1"
+			}
+		}
+		typosterReg18Dmg
+		{
+		"1"
+			{
+			"name" "Typoster"
+			"tall" "18"
+			"antialias" "1"
+			"outline"	"1"
+			}
+		}
 		typosterReg18
 		{
 		"1"

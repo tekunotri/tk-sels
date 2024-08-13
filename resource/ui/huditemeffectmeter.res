@@ -6,8 +6,8 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"xpos"										"cs-0.5"
-		"ypos"										"c185"
-		"wide"										"140"
+		"ypos"										"c105"
+		"wide"										"80"
 		"tall"										"10"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
@@ -50,14 +50,13 @@
 		"ypos"										"0"
 		"zpos"										"4"
 		"wide"										"f0"
-		"tall"										"1"
-		"tall_minmode"								"1"
+		"tall"										"2"
 		"visible"									"1"
 		"enabled"									"1"
 		"proportionaltoparent"						"1"
 		"image" 									"replay/thumbnails/mod"
 		"scaleImage" 								"1"
-		"drawcolor" 								"236 236 236 255"
+		"drawcolor" 								"200 200 200 255"
 	}
 
 

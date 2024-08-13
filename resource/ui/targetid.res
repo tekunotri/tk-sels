@@ -140,10 +140,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"typosterReg12"
-		"font_minmode"	"DefaultVerySmall"
+		"font"			"typosterReg10"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
 		"ypos"			"16"	
 		"zpos"			"1"
 		"wide"			"280"
@@ -198,7 +196,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"KillStreakAnchor"
-		"xpos"										"85"
+		"xpos"										"82"
 		"ypos"										"20"
 		"wide"										"8"
 		"tall"										"8"
