@@ -54,7 +54,7 @@
 		"tall"			"20"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"image"			"replay\thumbnails\overheal"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"

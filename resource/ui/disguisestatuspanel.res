@@ -76,6 +76,27 @@
 		"brighttext"		"0"
 	}
 
+	"DisguiseNameLabelShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"DisguiseNameLabelShadow"
+		"font"			"TyposterReg12"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%disguisename%"
+		"textAlignment"		"North-West"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"pin_to_sibling"	"DisguiseNameLabel"
+		"fgcolor_override"	"Black"
+	}
 	"WeaponNameLabel"
 	{
 		"ControlName"	"Label"
@@ -96,6 +117,28 @@
 		"brighttext"		"0"
 	}
 
+	"WeaponNameLabelShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"WeaponNameLabelShadow"
+		"font"			"TyposterReg10"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%weaponname%"
+		"textAlignment"		"North-West"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"pin_to_sibling"	"WeaponNameLabel"
+		"fgcolor_override"	"Black"
+	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
