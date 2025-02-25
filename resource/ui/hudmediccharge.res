@@ -38,7 +38,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"typosterReg24"
+		"font"			"typosterReg32"
 		"fgcolor" "255 255 255 255"
 	}
 	"ChargeLabelshad"
@@ -62,7 +62,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"typosterReg24"
+		"font"			"typosterReg32"
 		"fgcolor" "0 0 0 255"
 	}
 	
