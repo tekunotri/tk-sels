@@ -1,3 +1,4 @@
+#base "vguipreload.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -2854,12 +2855,13 @@
 		"xpos"		"0"
 		"ypos"		"40"
 		"zpos"		"-2"
-		"wide"		"80"
+		"wide"		"100"
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor" "15 15 15 255"
 		"bgcolor_override" "255 255 255 220"
+		"auto_wide_tocontents"	"1"
 		"SubButton"
 		{
 			"ControlName"						"CExImageButton"

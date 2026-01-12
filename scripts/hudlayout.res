@@ -29,10 +29,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c60"
-		"ypos"	"c9"	
-		"wide"	"200"
-		"tall"	"60"
+		"xpos"	"0"
+		"ypos"	"0"	
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 	
 	HudObjectiveStatus
@@ -512,7 +512,7 @@
 		"LocalPlayerColor"	"HudWhite"
 
 		"BaseBackgroundColor"	"46 43 42 0"		
-		"LocalBackgroundColor"	"255 255 255 50"	
+		"LocalBackgroundColor"	"255 255 255 0"	
 	}
 
 	HudVehicle

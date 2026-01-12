@@ -2,7 +2,7 @@
 {
     "SelsHUD"
 	{
-		"label"										"tk-sels"
+		"label"										"seledit123"
 		"command"									"engine con_enable 1; toggleconsole"
 		"OnlyAtMenu"								"1"
 	}

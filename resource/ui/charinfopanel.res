@@ -68,7 +68,7 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"teambg_1"		"../hud/color_panel_brown"
@@ -101,7 +101,7 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"1"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"fillcolor"		"TanDark"
 		}

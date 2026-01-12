@@ -680,6 +680,23 @@
 
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"TanLight"
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"rs1-5"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+				"image"			"glyph_quit"
+				"drawcolor_override" "TanLight"
+			}
 		}
 
 		"ResumeButton"
