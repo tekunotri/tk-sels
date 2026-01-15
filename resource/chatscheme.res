@@ -197,8 +197,8 @@ Scheme
 		NewGame.DisabledColor		"128 128 128 255"
 
 		TFColors.ChatTextYellow		"251 235 202 255"
-		TFColors.ChatTextTeamBlue	"153 204 255 255"
-		TFColors.ChatTextTeamRed	"255 63 53 255"
+		TFColors.ChatTextBlue		"153 204 255 255"
+		TFColors.ChatTextRed		"255 63 53 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
